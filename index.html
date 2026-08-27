@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="TonProx — Developer, gamer and creator.">
+  <title>TonProx — Digital Space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+  <nav class="nav">
+    <a class="brand" href="#top"><span class="brand-mark">T</span><span>TonProx</span></a>
+    <div class="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    <button class="theme" id="theme" aria-label="Toggle theme">☼</button>
+  </nav>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> ONLINE · BUILDING THINGS</div>
+        <h1>Welcome to my<br><span>digital space.</span></h1>
+        <p class="lead">Developer · Gamer · Creator</p>
+        <p class="sub">พื้นที่เล็ก ๆ สำหรับรวมโปรเจกต์ สิ่งที่กำลังสร้าง และสิ่งที่ผมสนใจ</p>
+        <div class="actions"><a class="btn primary" href="#projects">ดูโปรเจกต์ <span>↗</span></a><a class="btn ghost" href="#about">รู้จักผม</a></div>
+      </div>
+      <div class="hero-card reveal delay">
+        <div class="card-top"><span>TONPROX.EXE</span><span class="pulse">●</span></div>
+        <div class="terminal"><p><span class="muted">$</span> whoami</p><p class="cyan">TonProx</p><p><span class="muted">$</span> focus</p><p>Web · Code · Games · Mods</p><p><span class="muted">$</span> status</p><p class="green">Creating something cool...</p><span class="cursor">_</span></div>
+        <div class="card-grid"><div><small>ROLE</small><b>Developer</b></div><div><small>BASE</small><b>Thailand</b></div><div><small>STACK</small><b>Web / JS</b></div><div><small>MODE</small><b>CREATE</b></div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section compact">
+      <div class="section-head reveal"><span class="kicker">01 / ABOUT</span><h2>สร้างของที่ <em>อยากใช้เอง</em></h2></div>
+      <div class="about-grid"><p class="about-text reveal">ผมชอบทดลองกับโค้ด เว็บไซต์ เกม และม็อดต่าง ๆ เว็บนี้เป็นเหมือนห้องทดลองส่วนตัว — เปลี่ยนไอเดียให้กลายเป็นของที่ใช้งานได้จริงทีละโปรเจกต์</p><div class="stats reveal"><div><strong>∞</strong><span>Ideas</span></div><div><strong>24/7</strong><span>Curious</span></div><div><strong>100%</strong><span>Build</span></div></div></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal"><span class="kicker">02 / PROJECTS</span><h2>Things I'm <em>building</em></h2></div>
+      <div class="projects">
+        <article class="project reveal"><div class="project-number">01</div><div><div class="tag">WEB</div><h3>Personal Space</h3><p>เว็บไซต์ส่วนตัวสไตล์ dark futuristic สำหรับรวมผลงานและไอเดีย</p><div class="chips"><span>HTML</span><span>CSS</span><span>JS</span></div></div><span class="arrow">↗</span></article>
+        <article class="project reveal"><div class="project-number">02</div><div><div class="tag">TOOLS</div><h3>Game Toolkit</h3><p>รวมเครื่องมือเล็ก ๆ ที่ช่วยจัดการและปรับแต่ง workflow สำหรับเกม</p><div class="chips"><span>Tools</span><span>Automation</span></div></div><span class="arrow">↗</span></article>
+        <article class="project reveal"><div class="project-number">03</div><div><div class="tag">EXPERIMENT</div><h3>Next Idea</h3><p>โปรเจกต์ทดลองที่กำลังค่อย ๆ เติบโตจากไอเดียเล็ก ๆ</p><div class="chips"><span>WIP</span><span>Experimental</span></div></div><span class="arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <span class="kicker">03 / CONTACT</span><h2>Have an idea?<br><em>Let's build it.</em></h2>
+      <p>ถ้ามีโปรเจกต์หรือไอเดียที่อยากลองทำด้วยกัน ติดต่อผมได้เลย</p>
+      <a class="btn primary" href="https://github.com/TonProx" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> TonProx</span><span>Made with curiosity.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
